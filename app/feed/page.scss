@@ -1,0 +1,27 @@
+.passe__feed{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &__subtitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4rem;
+      }
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        cursor: pointer;
+      }
+    
+    &__media{
+        width:100%;
+        &__container{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
