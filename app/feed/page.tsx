@@ -5,7 +5,7 @@ import "./page.scss";
 import { useRouter } from "next/navigation";
 import videos from "../../data/videos.json";
 import { useEffect, useState } from "react";
-import Loader from "@/components/Loader/Loader";
+//import Loader from "@/components/Loader/Loader"; TODO: Enable Loading State
 import Title from "@/components/Title/Title";
 
 interface Item {
@@ -16,7 +16,7 @@ interface Item {
 
 const Feed = () => {
   const [playbackItem, setPlaybackItem] = useState<Item>();
-  const [isLoading, setIsLoading] = useState<boolean>();
+  //const [isLoading, setIsLoading] = useState<boolean>(); TODO: Enable Loading State
 
   const router = useRouter();
 

@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import logo from "./assets/passe-logo.png";
 import { useRouter } from "next/navigation";
 import "./page.scss";
 import Title from "@/components/Title/Title";
